@@ -14,6 +14,7 @@ public class GenericEntity {
 	@GeneratedValue(strategy = GenerationType.UUID)
 	private UUID uuid;
 	
+	
 	public UUID getUuid() {
 		return uuid;
 	}
