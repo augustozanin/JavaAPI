@@ -32,7 +32,6 @@ public class PlaylistController extends GenericController<PlaylistEntity, Playli
 		BeanUtils.copyProperties(dto, entidade);
 		return entidade;
 		
-
 	}
 
 }
